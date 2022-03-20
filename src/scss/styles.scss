@@ -23,4 +23,41 @@
 // Import partials:
 
 // Custom styles:
+#footer {
+  text-align: center;
+  padding: 5px;
+  margin: 20px;
+  background-color: mediumaquamarine;
+}
+
+.nav-item {
+  a:link {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.active {
+  font-weight: bold;
+}
+
+.jumbotron {
+  background-image: url("../img/pirate-ship.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 115px;
+}
+
+.display-4 {
+  font-family: "Merienda", sans-serif;
+  font-weight: bold;
+}
 
